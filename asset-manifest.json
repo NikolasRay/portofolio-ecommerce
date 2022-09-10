@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/portofolio-ecommerce/static/css/main.8163a7b1.css",
-    "main.js": "/portofolio-ecommerce/static/js/main.990de227.js",
-    "static/media/phone_bg.mp4": "/portofolio-ecommerce/static/media/phone_bg.15ca15a81e0fa4135c61.mp4",
-    "static/media/banner3.png": "/portofolio-ecommerce/static/media/banner3.c22409bf9c0b65014bd9.png",
-    "static/media/banner2.png": "/portofolio-ecommerce/static/media/banner2.209764596590b3f76681.png",
-    "static/media/freeshipping.png": "/portofolio-ecommerce/static/media/freeshipping.824a713c13c40b20949f.png",
-    "static/media/banner1.jpeg": "/portofolio-ecommerce/static/media/banner1.4a808936c3ad1f78df97.jpeg",
-    "static/media/banner.png": "/portofolio-ecommerce/static/media/banner.a060dbbeab89c7437ca2.png",
-    "static/media/savemoney.png": "/portofolio-ecommerce/static/media/savemoney.ad13d2d262d46f636c8f.png",
-    "static/media/discount.png": "/portofolio-ecommerce/static/media/discount.1b08bdb4860eb9ee2833.png",
-    "static/media/promo.png": "/portofolio-ecommerce/static/media/promo.5b8af54caebfe78968f8.png",
-    "static/media/support.png": "/portofolio-ecommerce/static/media/support.167681bb50f62da6ad9b.png",
-    "static/media/banner4.jpg": "/portofolio-ecommerce/static/media/banner4.314593aea8d573665111.jpg",
-    "static/media/orderonline.png": "/portofolio-ecommerce/static/media/orderonline.975cb060f141b3914647.png",
-    "static/media/pay.png": "/portofolio-ecommerce/static/media/pay.47ad3e696f50516da1b3.png",
-    "index.html": "/portofolio-ecommerce/index.html",
-    "main.8163a7b1.css.map": "/portofolio-ecommerce/static/css/main.8163a7b1.css.map",
-    "main.990de227.js.map": "/portofolio-ecommerce/static/js/main.990de227.js.map"
+    "main.css": "/static/css/main.ad49051d.css",
+    "main.js": "/static/js/main.7a0f82b6.js",
+    "static/media/phone_bg.mp4": "/static/media/phone_bg.15ca15a81e0fa4135c61.mp4",
+    "static/media/banner3.png": "/static/media/banner3.c22409bf9c0b65014bd9.png",
+    "static/media/banner2.png": "/static/media/banner2.209764596590b3f76681.png",
+    "static/media/freeshipping.png": "/static/media/freeshipping.824a713c13c40b20949f.png",
+    "static/media/banner1.jpeg": "/static/media/banner1.4a808936c3ad1f78df97.jpeg",
+    "static/media/banner.png": "/static/media/banner.a060dbbeab89c7437ca2.png",
+    "static/media/savemoney.png": "/static/media/savemoney.ad13d2d262d46f636c8f.png",
+    "static/media/discount.png": "/static/media/discount.1b08bdb4860eb9ee2833.png",
+    "static/media/promo.png": "/static/media/promo.5b8af54caebfe78968f8.png",
+    "static/media/support.png": "/static/media/support.167681bb50f62da6ad9b.png",
+    "static/media/banner4.jpg": "/static/media/banner4.314593aea8d573665111.jpg",
+    "static/media/orderonline.png": "/static/media/orderonline.975cb060f141b3914647.png",
+    "static/media/pay.png": "/static/media/pay.47ad3e696f50516da1b3.png",
+    "index.html": "/index.html",
+    "main.ad49051d.css.map": "/static/css/main.ad49051d.css.map",
+    "main.7a0f82b6.js.map": "/static/js/main.7a0f82b6.js.map"
   },
   "entrypoints": [
-    "static/css/main.8163a7b1.css",
-    "static/js/main.990de227.js"
+    "static/css/main.ad49051d.css",
+    "static/js/main.7a0f82b6.js"
   ]
 }
