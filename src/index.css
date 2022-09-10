@@ -1,13 +1,123 @@
-body {
+@import url("https://fonts.googleapis.com/css2?family=Teko:wght@400;500;600&display=swap");
+
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+:root {
+  --color-bg: #0b0c10;
+  --color-bg-variant: #1f2833;
+  --color-primary: #66fcf1;
+  --color-primary-variant: #45a29e;
+  --color-white: #fff;
+  --color-gray: #c5c6c7;
+  --color-light: #e85a4f;
+
+  --transition: all 400ms ease;
+  --container-width-lg: 75%;
+  --container-width-md: 86%;
+  --container-width-sm: 90%;
+}
+html {
+  scroll-behavior: smooth;
+  background: transparent;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+body {
+  font-family: "Teko", sans-serif;
+  background: linear-gradient(
+    var(--color-bg),
+    var(--color-bg-variant),
+    var(--color-bg)
+  );
+  color: var(--color-white);
+  line-height: 1.7;
+}
+.container {
+  width: var(--container-width-lg);
+  margin: 0 auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-weight: 500;
+}
+h1 {
+  font-size: 2.5rem;
+}
+
+section > h2,
+section > h5 {
+  text-align: center;
+  color: var(--color-light);
+}
+
+section > h2 {
+  color: var(--color-primary);
+  margin-bottom: 3rem;
+}
+.text-light {
+  color: var(--color-light);
+}
+
+a {
+  color: var(--color-primary);
+  transition: var(--transition);
+}
+a:hover {
+  color: var(--color-light);
+}
+.btn {
+  width: max-content;
+  display: inline-block;
+  color: var(--color-primary);
+  padding: 0.75rem 1.2rem;
+  border-radius: 0.3rem;
+  cursor: pointer;
+  border: 1px solid var(--color-primary-variant);
+  transition: var(--transition);
+  background: transparent;
+}
+
+.btn:hover {
+  background: var(--color-primary);
+  color: var(--color-light);
+  background-color: var(--color-bg);
+  box-shadow: 2px 2px 2px var(--color-primary);
+  border: 1px solid var(--color-light);
+}
+
+img {
+  display: block;
+  width: 100%;
+  object-fit: fill;
+}
+@media screen and (max-width: 1024px) {
+  .container {
+    width: var(--container-width-md);
+  }
+  section {
+    margin-top: 6rem;
+  }
+}
+/* MediaQueries(phones)*/
+
+@media screen and (max-width: 600px) {
+  .container {
+    width: var(--container-width-sm);
+  }
+  section > h2 {
+    margin-bottom: 2rem;
+  }
 }

@@ -1,0 +1,111 @@
+.newsletter__container {
+  display: flex;
+  justify-content: space-between;
+
+  flex-wrap: wrap;
+  align-items: center;
+  background-image: url("../../Assets/banner4.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 20% 30%;
+  background-color: transparent;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  height: 20vh;
+}
+.newsletter__newstext {
+  margin-left: 80px;
+}
+.newsletter__form {
+  margin-right: 80px;
+}
+.newsletter__newstext h4 {
+  font-size: 35px;
+  font-weight: 700;
+  color: var(--color-primary);
+  background: transparent;
+}
+.newsletter__newstext p {
+  font-size: 30px;
+  font-weight: 700;
+  color: var(--color-primary-variant);
+}
+.newsletter__newstext p span {
+  color: var(--color-light);
+}
+.newsletter__form input {
+  height: 1.5rem;
+  padding: 0 2em;
+  font-size: 14px;
+  width: 100%;
+  border: 2px solid var(--color-primary);
+  border-radius: 4px;
+  outline: none;
+  background: rgb(0, 0, 0, 0.4);
+  box-shadow: 0 0 10px var(--color-primary);
+}
+.newsletter__form input::placeholder {
+  color: white;
+  text-align: center;
+}
+.newsletter__form button {
+  background: rgba(0, 0, 0, 0.6);
+}
+input,
+select,
+textarea {
+  color: white;
+  text-align: center;
+}
+@media screen and (max-width: 1024px) {
+  .newsletter__container {
+    flex-direction: column;
+    align-items: flex-start;
+    height: 25vh;
+  }
+  .newsletter__form {
+    margin-left: 80px;
+    margin-bottom: 20px;
+  }
+  .newsletter__container button {
+    scale: 0.9;
+  }
+}
+@media screen and (max-width: 600px) {
+  .newsletter__container {
+    flex-direction: column;
+    align-items: center;
+    height: 40vh;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+
+    gap: 10px;
+  }
+  .newsletter__newstext {
+    margin-left: 0px;
+  }
+  .newsletter__form {
+    margin-bottom: 20px;
+    transform: translateX(40px);
+    margin-left: 0px;
+  }
+  .newsletter__container button {
+    scale: 0.9;
+  }
+  .newsletter__newstext h4 {
+    font-size: 20px;
+    font-weight: 700;
+    color: var(--color-primary);
+    background: transparent;
+  }
+  .newsletter__newstext p {
+    font-size: 15px;
+    font-weight: 700;
+    color: var(--color-primary-variant);
+  }
+  .newsletter__form input::placeholder {
+    font-size: 11px;
+  }
+}

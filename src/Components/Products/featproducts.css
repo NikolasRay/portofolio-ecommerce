@@ -1,0 +1,113 @@
+.products__container {
+  text-align: center;
+}
+.card__list {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-between;
+  column-gap: 5px;
+  row-gap: 1px;
+  padding: 30px;
+}
+.productcards__container {
+  padding: 5px 10px 5px;
+}
+.product__container {
+  flex-basis: 12%;
+  min-width: 250px;
+  width: 100%;
+
+  min-height: max-content;
+
+  padding: 10px 12px;
+  border: 1px solid var(--color-primary);
+  border-radius: 20px;
+  cursor: pointer;
+  box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.2);
+  margin: 15px 0;
+  transition: var(--transition);
+  background: radial-gradient(transparent, var(--color-bg));
+  position: relative;
+  padding: 5px 10px 5px;
+}
+.product__container * {
+  background: transparent;
+}
+.product__container img {
+  width: 100%;
+  border-radius: 10px;
+}
+.product__container:hover {
+  box-shadow: 10px 10px 30px rgba(102, 252, 241, 0.3);
+}
+.product__description {
+  text-align: start;
+  padding: 10px 0;
+}
+.product__description span {
+  color: var(--color-primary-variant);
+  font-size: 18px;
+}
+.product__description h5 {
+  padding-top: 7px;
+  color: white;
+  font-size: 20px;
+}
+.symbol__star {
+  color: gold;
+  translate: 5px 20%;
+}
+.symbol__euro {
+  color: var(--color-primary);
+  translate: 0px 20%;
+}
+h4 {
+  padding-top: 7px;
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--color-primary);
+}
+.button__container {
+  width: 35px;
+  height: 35px;
+  line-height: 40px;
+  font-weight: 500;
+  border: 1px solid var(--color-primary);
+  border-radius: 20px;
+  position: absolute;
+  bottom: 20px;
+  right: 10px;
+}
+.button__container:hover {
+  color: var(--color-light);
+  border-color: var(--color-light);
+}
+h2,
+p {
+  font-size: 40px;
+
+  margin-top: 10px;
+}
+@media screen and (max-width: 1024px) {
+  .card__list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    justify-items: center;
+
+    align-content: center;
+    width: 100%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .card__list {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    justify-items: center;
+
+    align-content: center;
+    width: 100%;
+  }
+}
