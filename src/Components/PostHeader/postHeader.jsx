@@ -11,7 +11,7 @@ const postHeader = () => {
         <h2>Amazing Discounts</h2>
         <h1>On all Products</h1>
         <p>Use discount code for up to 50% off!</p>
-        <Link to="/shop">
+        <Link to="/portofolio-ecommerce/shop">
           <button className="btn">Buy Now</button>
         </Link>
       </div>

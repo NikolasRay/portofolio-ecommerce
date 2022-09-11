@@ -25,7 +25,7 @@ const Header = () => {
   return (
     <section id="header" className="header header__container">
       <div>
-        <Link to="/">
+        <Link to="/portofolio-ecommerce/">
           <a onClick={() => setPath("/")} className="logo_link">
             <img src={logo} className="header__logo" />
           </a>
@@ -33,14 +33,14 @@ const Header = () => {
       </div>
       <div>
         <ul id="navbar" className="">
-          <Link to="/">
+          <Link to="/portofolio-ecommerce/">
             <li onClick={() => setPath("/")}>
               <a className={path === "/" ? "active" : " "} href="">
                 Home
               </a>
             </li>
           </Link>
-          <Link to="/shop">
+          <Link to="/portofolio-ecommerce/shop">
             <li onClick={() => setPath("/shop")}>
               <a className={path === "/shop" ? "active" : " "}>Shop</a>
             </li>
@@ -50,7 +50,7 @@ const Header = () => {
               <a className={path === "/about" ? "active" : " "}>About</a>
             </li>
           </Link>
-          <Link to="/contact">
+          <Link to="/portofolio-ecommerce/contact">
             <li onClick={() => setPath("/contact")}>
               <a className={path === "/contact" ? "active" : "."}>Contact</a>
             </li>
