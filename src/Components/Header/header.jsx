@@ -38,14 +38,23 @@ const Header = () => {
         <ul id="navbar" className="">
           <Link to="/portofolio-ecommerce/">
             <li onClick={() => setPath("/portofolio-ecommerce/")}>
-              <a className={path === "/" ? "active" : " "} href="">
+              <a
+                className={path === "/portofolio-ecommerce/" ? "active" : " "}
+                href=""
+              >
                 Home
               </a>
             </li>
           </Link>
           <Link to="/portofolio-ecommerce/shop">
             <li onClick={() => setPath("/portofolio-ecommerce/shop")}>
-              <a className={path === "/shop" ? "active" : " "}>Shop</a>
+              <a
+                className={
+                  path === "/portofolio-ecommerce/shop" ? "active" : " "
+                }
+              >
+                Shop
+              </a>
             </li>
           </Link>
           <Link to="/portofolio-ecommerce/about">
