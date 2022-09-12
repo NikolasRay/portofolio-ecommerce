@@ -26,7 +26,10 @@ const Header = () => {
     <section id="header" className="header header__container">
       <div>
         <Link to="/portofolio-ecommerce/">
-          <a onClick={() => setPath("/")} className="logo_link">
+          <a
+            onClick={() => setPath("/portofolio-ecommerce/")}
+            className="logo_link"
+          >
             <img src={logo} className="header__logo" />
           </a>
         </Link>
@@ -34,25 +37,37 @@ const Header = () => {
       <div>
         <ul id="navbar" className="">
           <Link to="/portofolio-ecommerce/">
-            <li onClick={() => setPath("/")}>
+            <li onClick={() => setPath("/portofolio-ecommerce/")}>
               <a className={path === "/" ? "active" : " "} href="">
                 Home
               </a>
             </li>
           </Link>
           <Link to="/portofolio-ecommerce/shop">
-            <li onClick={() => setPath("/shop")}>
+            <li onClick={() => setPath("/portofolio-ecommerce/shop")}>
               <a className={path === "/shop" ? "active" : " "}>Shop</a>
             </li>
           </Link>
           <Link to="/about">
-            <li onClick={() => setPath("/about")}>
-              <a className={path === "/about" ? "active" : " "}>About</a>
+            <li onClick={() => setPath("/portofolio-ecommerce/about")}>
+              <a
+                className={
+                  path === "/portofolio-ecommerce/about" ? "active" : " "
+                }
+              >
+                About
+              </a>
             </li>
           </Link>
           <Link to="/portofolio-ecommerce/contact">
-            <li onClick={() => setPath("/contact")}>
-              <a className={path === "/contact" ? "active" : "."}>Contact</a>
+            <li onClick={() => setPath("/portofolio-ecommerce/contact")}>
+              <a
+                className={
+                  path === "/portofolio-ecommerce/contact" ? "active" : "."
+                }
+              >
+                Contact
+              </a>
             </li>
           </Link>
           <li>

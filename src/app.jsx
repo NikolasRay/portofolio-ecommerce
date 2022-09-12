@@ -23,7 +23,7 @@ const App = () => {
       <Routes>
         <Route
           exact
-          path="/"
+          path="/portofolio-ecommerce/"
           element={
             <>
               <PostHeader />
@@ -37,7 +37,7 @@ const App = () => {
         />
         <Route
           exact
-          path="/shop"
+          path="/portofolio-ecommerce/shop"
           element={
             <>
               <FeatProducts />
@@ -47,7 +47,7 @@ const App = () => {
         />
         <Route
           exact
-          path="/about"
+          path="/portofolio-ecommerce/about"
           element={
             <>
               <CTA />
@@ -57,7 +57,7 @@ const App = () => {
         />
         <Route
           exact
-          path="/contact"
+          path="/portofolio-ecommerce/contact"
           element={
             <>
               <Footer />
