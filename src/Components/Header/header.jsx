@@ -48,7 +48,7 @@ const Header = () => {
               <a className={path === "/shop" ? "active" : " "}>Shop</a>
             </li>
           </Link>
-          <Link to="/about">
+          <Link to="/portofolio-ecommerce/about">
             <li onClick={() => setPath("/portofolio-ecommerce/about")}>
               <a
                 className={
